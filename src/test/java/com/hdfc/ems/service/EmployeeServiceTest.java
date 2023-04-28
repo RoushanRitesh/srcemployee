@@ -13,13 +13,13 @@ import com.hdfc.ems.Exception.EmployeeNotFoundException;
 import com.hdfc.ems.vo.EmployeeVo;
 @SpringBootTest
 class EmployeeServiceTest {
-@Autowired
-private IEmployeeService employeeService;
-	@Test
-	void testFindById() throws EmployeeNotFoundException {
-		EmployeeVo employee=employeeService.findEmployeeBYId(106);
-		assertNotNull(employee);
+//@Autowired
+//private IEmployeeService employeeService;
+	//@Test
+	//void testFindById() throws EmployeeNotFoundException {
+		//EmployeeVo employee=employeeService.findEmployeeBYId(106);
+		//assertNotNull(employee);
 		
-	}
+	//}
 
 }

@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hdfc.ems.entity.Employee;
 import com.hdfc.ems.service.IEmployeeServiceImp;
 import com.hdfc.ems.vo.EmployeeVo;
 

@@ -57,3 +57,10 @@ Identify and stop the process that's listening on port 8086 or configure this ap
 2023-04-29 11:21:07.992 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 2023-04-29 11:21:08.451 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2023-04-29 11:21:09.213 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8084], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/RITESH%20Raushan/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/EmployeeManagementSystem/src/main/resources/https-employee.jks] using alias [https-employee] and with trust store [null]
+2023-04-29 11:21:09.248 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (https) with context path ''
+2023-04-29 11:21:09.259 [main] INFO  c.h.e.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 9.576 seconds (JVM running for 11.804)
+2023-04-29 12:11:50.482 [RMI TCP Connection(61)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-29 12:11:51.125 [RMI TCP Connection(61)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-29 12:11:51.486 [RMI TCP Connection(61)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-29 12:11:51.574 [RMI TCP Connection(61)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-29 12:11:51.718 [RMI TCP Connection(61)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

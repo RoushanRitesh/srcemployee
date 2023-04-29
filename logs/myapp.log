@@ -1957,3 +1957,13 @@ Caused by: java.net.UnknownHostException: ${DB_HOST}
 2023-04-29 10:46:24 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2023-04-29 10:46:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8086"]
 2023-04-29 10:46:25 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8086], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/RITESH%20Raushan/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/EmployeeManagementSystem/src/main/resources/https-employee.jks] using alias [https-employee] and with trust store [null]
+2023-04-29 10:46:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (https) with context path ''
+2023-04-29 10:46:25 [main] INFO  c.h.e.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 5.236 seconds (JVM running for 6.725)
+2023-04-29 11:20:36 [RMI TCP Connection(42)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-29 11:20:36 [RMI TCP Connection(42)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8086"]
+2023-04-29 11:20:36 [RMI TCP Connection(42)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-29 11:20:36 [RMI TCP Connection(42)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8086"]
+2023-04-29 11:20:37 [RMI TCP Connection(42)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8086"]
+2023-04-29 11:20:37 [RMI TCP Connection(42)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-29 11:20:37 [RMI TCP Connection(42)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-29 11:20:37 [RMI TCP Connection(42)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

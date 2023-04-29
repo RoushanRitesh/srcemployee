@@ -1926,3 +1926,34 @@ Caused by: java.net.UnknownHostException: ${DB_HOST}
 2023-04-29 10:20:53 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2023-04-29 10:20:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8086"]
 2023-04-29 10:20:53 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8086], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/RITESH%20Raushan/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/EmployeeManagementSystem/src/main/resources/https-employee.jks] using alias [https-employee] and with trust store [null]
+2023-04-29 10:20:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8086 (https) with context path ''
+2023-04-29 10:20:53 [main] INFO  c.h.e.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 4.995 seconds (JVM running for 6.396)
+2023-04-29 10:46:07 [RMI TCP Connection(33)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-04-29 10:46:08 [RMI TCP Connection(33)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-jsse-nio-8086"]
+2023-04-29 10:46:08 [RMI TCP Connection(33)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-04-29 10:46:08 [RMI TCP Connection(33)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-jsse-nio-8086"]
+2023-04-29 10:46:08 [RMI TCP Connection(33)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-jsse-nio-8086"]
+2023-04-29 10:46:08 [RMI TCP Connection(33)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-29 10:46:08 [RMI TCP Connection(33)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-29 10:46:08 [RMI TCP Connection(33)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-04-29 10:46:20 [main] INFO  c.h.e.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.6 on LAPTOP-FL0D70PT with PID 3352 (C:\Users\RITESH Raushan\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem\bin\main started by RITESH Raushan in C:\Users\RITESH Raushan\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem)
+2023-04-29 10:46:20 [main] INFO  c.h.e.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-29 10:46:21 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-29 10:46:21 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2023-04-29 10:46:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8086 (https)
+2023-04-29 10:46:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-jsse-nio-8086"]
+2023-04-29 10:46:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-29 10:46:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-04-29 10:46:22 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-29 10:46:22 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1587 ms
+2023-04-29 10:46:22 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-29 10:46:22 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-29 10:46:23 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-29 10:46:23 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-29 10:46:23 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-29 10:46:23 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-29 10:46:24 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-29 10:46:24 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-29 10:46:24 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-29 10:46:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-jsse-nio-8086"]
+2023-04-29 10:46:25 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8086], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/RITESH%20Raushan/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/EmployeeManagementSystem/src/main/resources/https-employee.jks] using alias [https-employee] and with trust store [null]

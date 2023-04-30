@@ -86,3 +86,5 @@ Identify and stop the process that's listening on port 8289 or configure this ap
 2023-04-30 15:12:16.562 [main] INFO  c.h.e.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 8.103 seconds (JVM running for 10.017)
 2023-04-30 15:12:47.713 [https-jsse-nio-8182-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-04-30 15:12:47.713 [https-jsse-nio-8182-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-30 15:12:47.715 [https-jsse-nio-8182-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-04-30 15:12:47.790 [https-jsse-nio-8182-exec-6] INFO  c.h.e.controller.EmployeeController - EmployeeId (105) is called

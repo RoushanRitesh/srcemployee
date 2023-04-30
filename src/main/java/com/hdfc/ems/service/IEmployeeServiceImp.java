@@ -19,13 +19,21 @@ public class IEmployeeServiceImp implements IEmployeeService {
 	@Autowired
 	private EmployeeRepository employeeRepo;
 	@Override
+	
 	public EmployeeVo findEmployeeBYId(int employeeId) throws EmployeeNotFoundException
 	{
-		 Employee emp=employeeRepo.findById(employeeId).orElseThrow(()->new EmployeeNotFoundException("Invalid id"));
-		 EmployeeVo empVo=new EmployeeVo(employeeId,emp.getEmployeeName(),emp.getDateOfBirth().toString());
-		 
+		EmployeeVo empVo=new EmployeeVo();
+		try {
+			
+		
+		 Employee emp=employeeRepo.findById(employeeId).orElseThrow(()->new EmployeeNotFoundException());
+		  empVo=new EmployeeVo(employeeId,emp.getEmployeeName(),emp.getDateOfBirth().toString());
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
 	return empVo;
 	}
-
+	
 
 }

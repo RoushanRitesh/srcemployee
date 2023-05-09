@@ -1,0 +1,36 @@
+2023-05-03 10:08:36.064 [main] INFO  c.h.e.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.6 on LAPTOP-FL0D70PT with PID 24136 (C:\Users\RITESH Raushan\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem\bin\main started by RITESH Raushan in C:\Users\RITESH Raushan\Documents\workspace-spring-tool-suite-4-4.17.2.RELEASE\EmployeeManagementSystem)
+2023-05-03 10:08:36.068 [main] INFO  c.h.e.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-03 10:08:36.672 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-03 10:08:36.721 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2023-05-03 10:08:37.274 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8182 (https)
+2023-05-03 10:08:37.289 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-03 10:08:37.290 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-03 10:08:37.430 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-03 10:08:37.430 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1314 ms
+2023-05-03 10:08:37.615 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-03 10:08:37.704 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-03 10:08:37.924 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-03 10:08:38.063 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-03 10:08:38.462 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-03 10:08:38.502 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-05-03 10:08:39.313 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-03 10:08:39.324 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 10:08:39.592 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-03 10:08:39.996 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-8182], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/C:/Users/RITESH%20Raushan/Documents/workspace-spring-tool-suite-4-4.17.2.RELEASE/EmployeeManagementSystem/bin/main/https-employee.jks] using alias [https-employee] and with trust store [null]
+2023-05-03 10:08:40.020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8182 (https) with context path ''
+2023-05-03 10:08:40.029 [main] INFO  c.h.e.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 4.327 seconds (JVM running for 5.256)
+2023-05-03 10:22:43.508 [https-jsse-nio-8182-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-03 10:22:43.510 [https-jsse-nio-8182-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-03 10:22:43.511 [https-jsse-nio-8182-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-03 10:22:43.552 [https-jsse-nio-8182-exec-6] INFO  c.h.e.controller.EmployeeController - EmployeeId (108) is called
+2023-05-03 10:22:56.838 [https-jsse-nio-8182-exec-3] INFO  c.h.e.controller.EmployeeController - EmployeeId (106) is called
+2023-05-03 10:23:40.410 [https-jsse-nio-8182-exec-5] INFO  c.h.e.controller.EmployeeController - EmployeeId (112) is called
+2023-05-03 10:23:49.309 [https-jsse-nio-8182-exec-10] INFO  c.h.e.controller.EmployeeController - EmployeeId (104) is called
+2023-05-03 12:19:35.874 [https-jsse-nio-8182-exec-8] INFO  c.h.e.controller.EmployeeController - EmployeeId (112) is called
+2023-05-03 12:20:11.603 [https-jsse-nio-8182-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "ritesh"]
+2023-05-03 15:09:36.830 [RMI TCP Connection(312)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-03 15:09:37.378 [RMI TCP Connection(312)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-03 15:09:37.441 [RMI TCP Connection(312)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-03 15:09:37.699 [RMI TCP Connection(312)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-03 15:09:37.772 [RMI TCP Connection(312)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-03 15:09:37.835 [RMI TCP Connection(312)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

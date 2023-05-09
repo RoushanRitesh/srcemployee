@@ -22,17 +22,10 @@ public class IEmployeeServiceImp implements IEmployeeService {
 	
 	public EmployeeVo findEmployeeBYId(int employeeId) throws EmployeeNotFoundException
 	{
-		EmployeeVo empVo=new EmployeeVo();
-		try {
-			
+		Employee employee=employeeRepo.findById(employeeId).orElseThrow(()->new EmployeeNotFoundException("Invalid Employee id"));
+		EmployeeVo empvo=new EmployeeVo(employeeId,employee.getEmployeeName(),employee.getDateOfBirth().toString());
+		return empvo;
 		
-		 Employee emp=employeeRepo.findById(employeeId).orElseThrow(()->new EmployeeNotFoundException());
-		  empVo=new EmployeeVo(employeeId,emp.getEmployeeName(),emp.getDateOfBirth().toString());
-		}
-		catch(Exception e) {
-			e.printStackTrace();
-		}
-	return empVo;
 	}
 	
 
